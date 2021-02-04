@@ -17,11 +17,8 @@ public class SearchArray {
                 } else {
                     return -1;
                 }
-
             }
-
         }
-
     }
 }
 

@@ -2,6 +2,8 @@ package com.company;
 
 public class SquareStars {
 
+    //I was here
+
     public void theStarSquare() {
 
         for (int i = 0; i < 6; i++)
