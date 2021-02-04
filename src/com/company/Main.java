@@ -1,6 +1,7 @@
 package com.company;
 
 import java.util.ArrayList;
+import java.util.Locale;
 import java.util.Scanner;
 
 public class Main {
@@ -8,6 +9,7 @@ public class Main {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
 
+/*
         //Opg 1.
 
         ArrayContain array = new ArrayContain();
@@ -26,10 +28,13 @@ public class Main {
         Library bookIsbnNumber = new Library();
 
 
-        System.out.println(bookIsbnNumber.viewBookList(bookIsbnNumber.scifi));
+        System.out.println(bookIsbnNumber.viewBookList(bookIsbnNumber.scifi));*/
 
         //Opg 3.
-
+        LawnMower lawnMower = new LawnMower();
+        double grassLength = scan.nextDouble();
+        double shouldBeCutAt = scan.nextDouble();
+        System.out.println("Days to cut " + lawnMower.whenToMowTheLawn(grassLength, shouldBeCutAt));
 
 
 
