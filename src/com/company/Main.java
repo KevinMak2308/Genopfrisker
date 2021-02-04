@@ -1,12 +1,15 @@
 package com.company;
 
 import java.util.ArrayList;
+import java.util.Locale;
 import java.util.Scanner;
 
 public class Main {
 
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
+
+/*
         //Opg 1.
 
         ArrayContain array = new ArrayContain();
@@ -25,29 +28,16 @@ public class Main {
         Library bookIsbnNumber = new Library();
 
 
-        System.out.println(bookIsbnNumber.viewBookList(bookIsbnNumber.scifi));
-/*
+        System.out.println(bookIsbnNumber.viewBookList(bookIsbnNumber.scifi));*/
+
         //Opg 3.
-
         LawnMower lawnMower = new LawnMower();
-        System.out.println("Enter the length of your grass currently");
-        double currentGrassLength = scan.nextDouble();
-        System.out.println("How tall can the grass be before it needs to be cut?");
-        double grassCutLength = scan.nextDouble();
-        System.out.println("Days until it needs to be cut " + lawnMower.whenToMowTheLawn(currentGrassLength, grassCutLength) );
-*/
+        double grassLength = scan.nextDouble();
+        double shouldBeCutAt = scan.nextDouble();
+        System.out.println("Days to cut " + lawnMower.whenToMowTheLawn(grassLength, shouldBeCutAt));
 
-        //Opg 4.
-
-        SquareStars squareStars = new SquareStars();
-        squareStars.theStarSquare();
-
-        //Opg 7.
-        String[] arr = new String[5];
-        String sd = "";
-
-        SearchArray searchArray = new SearchArray();
-        searchArray.searchArrayForString(arr, sd);
+        //Opg 5.
+        System.out.println(SentenceConverter.convertSentence("This IS a test"));
 
 
 

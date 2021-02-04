@@ -5,10 +5,7 @@ import java.util.Scanner;
 
 public class LawnMower {
 
-
-
     public double whenToMowTheLawn(double grassLengthBeforeCut, double grassLengthToCut) {
-    return (grassLengthToCut -  grassLengthBeforeCut) / 0.8;
-
+        return (grassLengthToCut - grassLengthBeforeCut) / 0.8;
     }
 }
