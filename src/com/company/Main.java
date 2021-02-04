@@ -36,6 +36,10 @@ public class Main {
         double shouldBeCutAt = scan.nextDouble();
         System.out.println("Days to cut " + lawnMower.whenToMowTheLawn(grassLength, shouldBeCutAt));
 
+        //Opg 5.
+        System.out.println(SentenceConverter.convertSentence("This IS a test"));
+
+
 
 
 
