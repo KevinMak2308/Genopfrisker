@@ -8,11 +8,7 @@ public class LawnMower {
 
 
     public double whenToMowTheLawn(double grassLengthBeforeCut, double grassLengthToCut) {
-        grassLengthBeforeCut = 0.8;
-        grassLengthToCut = 1.5;
+    return (grassLengthToCut -  grassLengthBeforeCut) / 0.8;
 
-        int[] lawnMowerArray = new Array[];
-
-        if(int i = 0; i < grass)
     }
 }
