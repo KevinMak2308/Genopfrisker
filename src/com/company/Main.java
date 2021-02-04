@@ -9,7 +9,7 @@ public class Main {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
 
-/*
+
         //Opg 1.
 
         ArrayContain array = new ArrayContain();
@@ -28,7 +28,7 @@ public class Main {
         Library bookIsbnNumber = new Library();
 
 
-        System.out.println(bookIsbnNumber.viewBookList(bookIsbnNumber.scifi));*/
+        System.out.println(bookIsbnNumber.viewBookList(bookIsbnNumber.scifi));
 
         //Opg 3.
         LawnMower lawnMower = new LawnMower();
@@ -37,7 +37,18 @@ public class Main {
         System.out.println("Days to cut " + lawnMower.whenToMowTheLawn(grassLength, shouldBeCutAt));
 
         //Opg 5.
+        SentenceConverter.printProblemDescription();
         System.out.println(SentenceConverter.convertSentence("This IS a test"));
+
+        //Opg 7.
+        String[] words = new String[3];
+        words[0] = "hej";
+        words[1] = "med";
+        words[2] = "dig";
+
+        SearchArray searchArray = new SearchArray();
+        System.out.println(searchArray.searchArrayForString(words, "med"));
+        System.out.println(searchArray.searchArrayForString(words, "elefant"));
 
 
 
